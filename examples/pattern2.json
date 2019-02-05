@@ -1,0 +1,9 @@
+{
+  "root": "HAVE-PROPERTY",
+  "neutral": {"root": "RESTAURANT"},
+  "formal": {
+    "root": "IN-LOC",
+    "ground": {"root": "DISTRICT"},
+    "figure": {"root": "RESTAURANT"}
+  }
+}

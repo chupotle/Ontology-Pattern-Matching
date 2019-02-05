@@ -1,0 +1,14 @@
+{
+  "root": "BE",
+  "neutral": {"root": "NONHUMAN-ANIMAL"},
+  "neutral1": {
+    "root": "COLOR-SCALE",
+    "scale": {"root": "COLOR-SCALE"},
+    "lex": {"root": "PURPLE"},
+    "assoc-with":{
+      "root": "COLOR-SCALE",
+      "scale": {"root": "COLOR-SCALE"},
+      "lex": {"root": "COLOR"}
+    }
+  }
+}

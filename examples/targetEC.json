@@ -1,0 +1,56 @@
+[
+  {
+    "V5132472": {
+      "id": "V5132472",
+      "indicator": "SPEECHACT",
+      "type": "SA_WH-QUESTION",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V5132174",
+        "FOCUS": "#V5132164",
+        "LEX": "IS"
+      },
+      "start": 2,
+      "end": 23
+    },
+    "V5132174": {
+      "id": "V5132174",
+      "indicator": "F",
+      "type": "BE",
+      "word": "BE",
+      "roles": {
+        "NEUTRAL": "#V5132164",
+        "NEUTRAL1": "#V5132193",
+        "TENSE": "PRES",
+        "LEX": "IS"
+      },
+      "start": 2,
+      "end": 23
+    },
+    "V5132164": {
+      "id": "V5132164",
+      "indicator": "WH-TERM",
+      "type": "COLOR-SCALE",
+      "word": "COLOR",
+      "roles": {
+        "PROFORM": "WHAT",
+        "SCALE": "COLOR-SCALE",
+        "LEX": "COLOR"
+      },
+      "start": 2,
+      "end": 13
+    },
+    "V5132193": {
+      "id": "V5132193",
+      "indicator": "THE",
+      "type": "NONHUMAN-ANIMAL",
+      "word": "DOG",
+      "roles": {
+        "LEX": "DOG"
+      },
+      "start": 16,
+      "end": 23
+    },
+    "root": "V5132472"
+  }
+]

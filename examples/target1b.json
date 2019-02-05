@@ -1,0 +1,29 @@
+[
+  {
+    "V4881569": {
+      "id": "V4881569",
+      "indicator": "A",
+      "type": "LACKING",
+      "word": "WANTS",
+      "roles": {
+        "NEUTRAL1": "#V4881521",
+        "LEX": "WANTS"
+      },
+      "start": 2,
+      "end": 9
+    },
+    "V4881521": {
+      "id": "V4881521",
+      "indicator": "THE",
+      "type": "GEOGRAPHIC-REGION",
+      "word": "MAN",
+      "roles": {
+        "NAME-OF": "MAN",
+        "LEX": "MAN"
+      },
+      "start": 2,
+      "end": 6
+    },
+    "root": "V4881569"
+  }
+]

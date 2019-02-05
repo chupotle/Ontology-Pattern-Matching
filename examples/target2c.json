@@ -1,0 +1,64 @@
+[
+  {
+    "V5028586": {
+      "id": "V5028586",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V5028492",
+        "LEX": "IS"
+      },
+      "start": 3,
+      "end": 27
+    },
+    "V5028492": {
+      "id": "V5028492",
+      "indicator": "F",
+      "type": "HAVE-PROPERTY",
+      "word": "BE",
+      "roles": {
+        "NEUTRAL": "#V5028484",
+        "FORMAL": "#V5028508",
+        "TENSE": "PRES",
+        "LEX": "IS"
+      },
+      "start": 3,
+      "end": 27
+    },
+    "V5028484": {
+      "id": "V5028484",
+      "indicator": "THE",
+      "type": "RESTAURANT",
+      "word": "RESTAURANT",
+      "roles": {
+        "LEX": "RESTAURANT"
+      },
+      "start": 3,
+      "end": 17
+    },
+    "V5028508": {
+      "id": "V5028508",
+      "indicator": "F",
+      "type": "ASSOC-WITH",
+      "word": null,
+      "roles": {
+        "GROUND": "#V5028549",
+        "FIGURE": "#V5028484",
+        "LEX": "MEXICAN"
+      },
+      "start": 20,
+      "end": 27
+    },
+    "V5028549": {
+      "id": "V5028549",
+      "indicator": "KIND",
+      "type": "GEOGRAPHIC-REGION",
+      "word": "MEXICO",
+      "roles": {},
+      "start": 20,
+      "end": 27
+    },
+    "root": "V5028586"
+  }
+]

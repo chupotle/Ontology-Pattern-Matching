@@ -1,0 +1,54 @@
+[
+  {
+    "V5091231": {
+      "id": "V5091231",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "PUNCTYPE": "DECL",
+        "CONTENT": "#V5091119",
+        "LEX": "CARRIED"
+      },
+      "start": 2,
+      "end": 28
+    },
+    "V5091119": {
+      "id": "V5091119",
+      "indicator": "F",
+      "type": "TRANSPORT",
+      "word": "CARRY",
+      "roles": {
+        "AGENT": "#V5091114",
+        "AFFECTED": "#V5091128",
+        "TENSE": "PAST",
+        "LEX": "CARRIED"
+      },
+      "start": 2,
+      "end": 27
+    },
+    "V5091114": {
+      "id": "V5091114",
+      "indicator": "THE",
+      "type": "NONHUMAN-ANIMAL",
+      "word": "DOG",
+      "roles": {
+        "LEX": "DOG"
+      },
+      "start": 2,
+      "end": 10
+    },
+    "V5091128": {
+      "id": "V5091128",
+      "indicator": "THE",
+      "type": "BEEF",
+      "word": "STEAK",
+      "roles": {
+        "LEX": "STEAK"
+      },
+      "start": 18,
+      "end": 27
+    },
+    "root": "V5091231"
+  }
+]

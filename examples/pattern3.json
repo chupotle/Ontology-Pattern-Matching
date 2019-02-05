@@ -1,0 +1,5 @@
+{
+  "root": "TRANSPORT",
+  "agent": {"root": "NONHUMAN-ANIMAL"},
+  "affected": {"root": "INTERNAL-BODY-PART"}
+}

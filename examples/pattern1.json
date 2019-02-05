@@ -1,0 +1,8 @@
+{
+  "root": "WANT",
+  "experiencer": {"root": "PERSON"},
+  "formal": {
+    "root": "CONSUME",
+    "agent": {"root": "PERSON"}
+  }
+}

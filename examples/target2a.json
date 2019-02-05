@@ -1,0 +1,66 @@
+[
+  {
+    "V4929488": {
+      "id": "V4929488",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V4929253",
+        "LEX": "IS"
+      },
+      "start": 2,
+      "end": 31
+    },
+    "V4929253": {
+      "id": "V4929253",
+      "indicator": "F",
+      "type": "HAVE-PROPERTY",
+      "word": "BE",
+      "roles": {
+        "NEUTRAL": "#V4929245",
+        "FORMAL": "#V4929272",
+        "TENSE": "PRES",
+        "LEX": "IS"
+      },
+      "start": 2,
+      "end": 31
+    },
+    "V4929245": {
+      "id": "V4929245",
+      "indicator": "THE",
+      "type": "RESTAURANT",
+      "word": "RESTAURANT",
+      "roles": {
+        "LEX": "RESTAURANT"
+      },
+      "start": 2,
+      "end": 17
+    },
+    "V4929272": {
+      "id": "V4929272",
+      "indicator": "F",
+      "type": "IN-LOC",
+      "word": "IN",
+      "roles": {
+        "GROUND": "#V4929329",
+        "FIGURE": "#V4929245",
+        "LEX": "IN"
+      },
+      "start": 20,
+      "end": 31
+    },
+    "V4929329": {
+      "id": "V4929329",
+      "indicator": "THE",
+      "type": "DISTRICT",
+      "word": "TOWN",
+      "roles": {
+        "LEX": "TOWN"
+      },
+      "start": 23,
+      "end": 31
+    },
+    "root": "V4929488"
+  }
+]

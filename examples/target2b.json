@@ -1,0 +1,76 @@
+[
+  {
+    "V5062275": {
+      "id": "V5062275",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V5061085",
+        "LEX": "IS"
+      },
+      "start": 2,
+      "end": 41
+    },
+    "V5061085": {
+      "id": "V5061085",
+      "indicator": "F",
+      "type": "HAVE-PROPERTY",
+      "word": "BE",
+      "roles": {
+        "NEUTRAL": "#V5061061",
+        "FORMAL": "#V5061104",
+        "TENSE": "PRES",
+        "LEX": "IS"
+      },
+      "start": 2,
+      "end": 41
+    },
+    "V5061061": {
+      "id": "V5061061",
+      "indicator": "THE",
+      "type": "SHOW",
+      "word": "ESTABLISHMENT",
+      "roles": {
+        "ASSOC-WITH": "#V5061054",
+        "LEX": "ESTABLISHMENT"
+      },
+      "start": 2,
+      "end": 27
+    },
+    "V5061054": {
+      "id": "V5061054",
+      "indicator": "KIND",
+      "type": "EAT",
+      "word": "EAT",
+      "roles": {},
+      "start": 2,
+      "end": 27
+    },
+    "V5061104": {
+      "id": "V5061104",
+      "indicator": "F",
+      "type": "IN-LOC",
+      "word": "IN",
+      "roles": {
+        "GROUND": "#V5061161",
+        "FIGURE": "#V5061061",
+        "LEX": "IN"
+      },
+      "start": 30,
+      "end": 41
+    },
+    "V5061161": {
+      "id": "V5061161",
+      "indicator": "THE",
+      "type": "DISTRICT",
+      "word": "TOWN",
+      "roles": {
+        "LEX": "TOWN"
+      },
+      "start": 33,
+      "end": 41
+    },
+    "root": "V5062275"
+  }
+]

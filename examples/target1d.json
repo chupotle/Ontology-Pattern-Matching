@@ -1,0 +1,53 @@
+[
+  {
+    "V4911952": {
+      "id": "V4911952",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V4911723",
+        "LEX": "WANTS"
+      },
+      "start": 2,
+      "end": 24
+    },
+    "V4911723": {
+      "id": "V4911723",
+      "indicator": "F",
+      "type": "WANT",
+      "word": "WANT",
+      "roles": {
+        "EXPERIENCER": "#V4911717",
+        "NEUTRAL": "#V4911736",
+        "TENSE": "PRES",
+        "LEX": "WANTS"
+      },
+      "start": 2,
+      "end": 24
+    },
+    "V4911717": {
+      "id": "V4911717",
+      "indicator": "THE",
+      "type": "ALCOHOL",
+      "word": "BEER",
+      "roles": {
+        "LEX": "BEER"
+      },
+      "start": 2,
+      "end": 11
+    },
+    "V4911736": {
+      "id": "V4911736",
+      "indicator": "THE",
+      "type": "MALE-PERSON",
+      "word": "MAN",
+      "roles": {
+        "LEX": "MAN"
+      },
+      "start": 17,
+      "end": 24
+    },
+    "root": "V4911952"
+  }
+]

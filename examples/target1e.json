@@ -1,0 +1,81 @@
+[
+  {
+    "V4913282": {
+      "id": "V4913282",
+      "indicator": "SPEECHACT",
+      "type": "SA_IDENTIFY",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V4913206",
+        "LEX": "THE"
+      },
+      "start": 2,
+      "end": 6
+    },
+    "V4913206": {
+      "id": "V4913206",
+      "indicator": "THE",
+      "type": "MALE-PERSON",
+      "word": "THE",
+      "roles": {
+        "NAME-OF": "THE",
+        "LEX": "THE"
+      },
+      "start": 2,
+      "end": 6
+    },
+    "root": "V4913282"
+  },
+  {
+    "V4913493": {
+      "id": "V4913493",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V4913221",
+        "LEX": "WANT"
+      },
+      "start": 6,
+      "end": 14
+    },
+    "V4913221": {
+      "id": "V4913221",
+      "indicator": "F",
+      "type": "WANT",
+      "word": "WANT",
+      "roles": {
+        "EXPERIENCER": "#V4913494",
+        "NEUTRAL": "#V4913244",
+        "TENSE": "PRES",
+        "LEX": "WANT"
+      },
+      "start": 6,
+      "end": 14
+    },
+    "V4913494": {
+      "id": "V4913494",
+      "indicator": "IMPRO",
+      "type": "REFERENTIAL-SEM",
+      "word": null,
+      "roles": {
+        "PROFORM": "SUBJ",
+        "COREF": "#V4913206"
+      },
+      "start": 6,
+      "end": 14
+    },
+    "V4913244": {
+      "id": "V4913244",
+      "indicator": "INDEF-SET",
+      "type": "POVERTY",
+      "word": "WANTS",
+      "roles": {
+        "LEX": "WANTS"
+      },
+      "start": 11,
+      "end": 14
+    },
+    "root": "V4913493"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "V4884721": {
+      "id": "V4884721",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "CONTENT": "#V4884335",
+        "LEX": "WANTS"
+      },
+      "start": 3,
+      "end": 23
+    },
+    "V4884335": {
+      "id": "V4884335",
+      "indicator": "F",
+      "type": "WANT",
+      "word": "WANT",
+      "roles": {
+        "EXPERIENCER": "#V4884310",
+        "FORMAL": "#V4884367",
+        "TENSE": "PRES",
+        "LEX": "WANTS"
+      },
+      "start": 3,
+      "end": 23
+    },
+    "V4884310": {
+      "id": "V4884310",
+      "indicator": "BARE",
+      "type": "MALE-PERSON",
+      "word": "MAN",
+      "roles": {
+        "LEX": "MAN"
+      },
+      "start": 3,
+      "end": 6
+    },
+    "V4884367": {
+      "id": "V4884367",
+      "indicator": "F",
+      "type": "DRINK",
+      "word": "DRINK",
+      "roles": {
+        "AGENT": "#V4884310",
+        "AFFECTED": "#V4884381",
+        "VFORM": "BASE",
+        "LEX": "DRINK"
+      },
+      "start": 12,
+      "end": 23
+    },
+    "V4884381": {
+      "id": "V4884381",
+      "indicator": "BARE",
+      "type": "ALCOHOL",
+      "word": "BEER",
+      "roles": {
+        "LEX": "BEER"
+      },
+      "start": 21,
+      "end": 23
+    },
+    "root": "V4884721"
+  }
+]

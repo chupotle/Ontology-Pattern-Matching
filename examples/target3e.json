@@ -1,0 +1,54 @@
+[
+  {
+    "V5094065": {
+      "id": "V5094065",
+      "indicator": "SPEECHACT",
+      "type": "SA_TELL",
+      "word": null,
+      "roles": {
+        "PUNCTYPE": "DECL",
+        "CONTENT": "#V5093987",
+        "LEX": "CARRIED"
+      },
+      "start": 2,
+      "end": 30
+    },
+    "V5093987": {
+      "id": "V5093987",
+      "indicator": "F",
+      "type": "TRANSPORT",
+      "word": "CARRY",
+      "roles": {
+        "AGENT": "#V5093982",
+        "AFFECTED": "#V5094000",
+        "TENSE": "PAST",
+        "LEX": "CARRIED"
+      },
+      "start": 2,
+      "end": 29
+    },
+    "V5093982": {
+      "id": "V5093982",
+      "indicator": "THE",
+      "type": "MAMMAL",
+      "word": "MAMMAL",
+      "roles": {
+        "LEX": "MAMMAL"
+      },
+      "start": 2,
+      "end": 13
+    },
+    "V5094000": {
+      "id": "V5094000",
+      "indicator": "THE",
+      "type": "INTERNAL-BODY-PART",
+      "word": "BONE",
+      "roles": {
+        "LEX": "BONE"
+      },
+      "start": 21,
+      "end": 29
+    },
+    "root": "V5094065"
+  }
+]
